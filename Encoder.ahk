@@ -12,9 +12,9 @@ ButtonOK:
 Gui, Submit
 FileRead, OldStr, %FilenameRead%
 NewStr := StrReplace(OldStr, a, "©ª")
-NewStr2 := StrReplace(NewStr, b, "")
-NewStr := StrReplace(NewStr2, c, "")
-NewStr2 := StrReplace(NewStr, d, "")
+NewStr2 := StrReplace(NewStr, b, "¢©")
+NewStr := StrReplace(NewStr2, c, "©¢")
+NewStr2 := StrReplace(NewStr, d, "ª©")
 NewStr := StrReplace(NewStr2, e, "")
 NewStr2 := StrReplace(NewStr, f, "")
 NewStr := StrReplace(NewStr2, g, "")
